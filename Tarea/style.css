@@ -1,0 +1,54 @@
+.class1{
+    background-color: rgb(177, 177, 177);
+    background-clip: padding-box;
+
+    border-image: url(pattern.png);
+    border-image-slice: 27;
+    border-width: 30px;
+    border-style: solid;
+    border-image-width: 27px;
+    border-image-repeat: stretch round;
+
+    font-family: Arial;
+    text-align: center;
+}
+
+.background{
+    background: linear-gradient(90deg, rgb(169, 218, 169) 0%, rgb(118, 105, 230) 100%);
+}
+
+
+.class2
+{
+    background-color: rgb(66, 59, 155);
+    text-align: center;
+    font-family: Arial;
+}
+
+a:link
+{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    margin: 100px;
+}
+
+a:hover{
+    background-color: red;
+    color: yellow;
+}
+
+
+.class5
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(66, 59, 155);
+    text-align: center;
+}
+
+tfoot{
+    background-color: rgb(66, 59, 155);
+    font-family: Arial;
+}
